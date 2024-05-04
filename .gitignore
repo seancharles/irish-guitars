@@ -1,0 +1,34 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore WordPress core files
+wp-config.php
+wp-content/languages/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/*.log
+
+# Ignore WordPress plugin and theme files
+wp-content/plugins/*
+wp-content/themes/*
+!wp-content/plugins/index.php
+!wp-content/themes/index.php
+
+# Ignore environment-specific configurations
+.htaccess
+.env
+
+# Ignore IDE/Editor files
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+
+# Ignore package manager files
+composer.lock
+npm-debug.log
+yarn-error.log
